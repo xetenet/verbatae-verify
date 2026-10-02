@@ -8,7 +8,7 @@ This page publishes the fingerprint (SHA-256) of the current Verbatae beta build
 
 1. Fingerprint the file you downloaded:
 
-       shasum -a 256 ~/Downloads/Verbatae-0.1.1-arm64.dmg
+       shasum -a 256 ~/Downloads/Verbatae-0.1.2-arm64.dmg
 
    The long string it prints must be identical to the one in `LATEST.sha256`. One different character means it is not the same file.
 
@@ -16,11 +16,11 @@ This page publishes the fingerprint (SHA-256) of the current Verbatae beta build
 
        cd ~/Downloads && shasum -a 256 -c LATEST.sha256
 
-   It should say `Verbatae-0.1.1-arm64.dmg: OK`.
+   It should say `Verbatae-0.1.2-arm64.dmg: OK`.
 
 3. Ask macOS whether it accepts the file:
 
-       spctl -a -t open --context context:primary-signature -vv ~/Downloads/Verbatae-0.1.1-arm64.dmg
+       spctl -a -t open --context context:primary-signature -vv ~/Downloads/Verbatae-0.1.2-arm64.dmg
 
    Expected: `accepted` and `source=Notarized Developer ID`.
 
