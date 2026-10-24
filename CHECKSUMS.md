@@ -16,4 +16,5 @@ Newest first. Each row is the SHA-256 of the file as published.
 
 | Version | Date (UTC) | Size (bytes) | SHA-256 |
 |---|---|---|---|
+| 0.2.2 | 2026-10-24 | 1088596304 | `ccec3e3145399b367b73fa7d51757d4ffc86956c3f366a560559785c0162d668` |
 | 0.2.1 | 2026-10-24 | 1088377592 | `c6ae8ebb8dd0d16f42bafb14bbacbb2dd97748b1a47840998d733da255216c3d` |

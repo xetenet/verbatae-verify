@@ -34,7 +34,7 @@ This page publishes the fingerprint (SHA-256) of the current Verbatae beta build
 
 1. Fingerprint the file you downloaded:
 
-       Get-FileHash "$env:USERPROFILE\Downloads\Verbatae-Setup-0.2.1-x64.exe" -Algorithm SHA256
+       Get-FileHash "$env:USERPROFILE\Downloads\Verbatae-Setup-0.2.2-x64.exe" -Algorithm SHA256
 
    The long string it prints must match the one in `LATEST-windows.sha256` (PowerShell prints it in capitals; the letters are the same). One different character means it is not the same file.
 
